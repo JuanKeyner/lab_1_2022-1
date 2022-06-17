@@ -174,7 +174,8 @@ void problema2 (int y){
 }
 
 void problema8 (int a, int b, int c){
-    int suma=0;
+    int suma=0;/* si no  se inicializa, agarra cualquier valor que halla en la memoria
+    y me saca canas, despues  tumba el pelo del prro  estres por cmbiar la asignacion de suma de mil maneras posibles  */
 
     //divisores de a
     for(int i=1;i<=c;i++){
